@@ -1,4 +1,3 @@
-/* Variáveis de cores baseadas na logo Cinefy */
 :root {
     --cor-amarelo: #FFB800;
     --cor-amarelo-escuro: #E5A500;
@@ -10,10 +9,8 @@
     --cor-borda: #E0E0E0;
 }
 
-/* Importando fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -191,7 +188,6 @@ body {
     display: block;
 }
 
-/* overlay FUNCIONANDO */
 .fundo-exploracao::after {
     content: "";
     position: absolute;
@@ -275,7 +271,7 @@ body {
     right: 15px;
 }
 
-/* ========== SEÇÃO EXPLORAÇÃO ========== */
+
 .secao-exploracao {
     text-align: center;
     max-width: 1200px;
@@ -324,7 +320,6 @@ body {
     transform: translateY(-2px);
 }
 
-/* ========== SEÇÃO CONTEÚDO (FILMES E SÉRIES) ========== */
 .secao-conteudo {
     max-width: 1200px;
     margin: 0 auto;
@@ -473,7 +468,6 @@ body {
     right: -15px;
 }
 
-/* ========== SEÇÃO BOTÕES ========== */
 .secao-botoes {
     max-width: 1200px;
     margin: 0 auto 25px;
@@ -502,7 +496,6 @@ body {
     box-shadow: 0 6px 16px rgba(255, 184, 0, 0.5);
 }
 
-/* ========== SEÇÃO LANÇAMENTOS ========== */
 .secao-lancamentos {
     max-width: 1200px;
     margin: 0 auto 50px;
@@ -530,7 +523,6 @@ body {
     box-shadow: 0 6px 16px rgba(255, 184, 0, 0.5);
 }
 
-/* ========== RODAPÉ ========== */
 .rodape {
     background-color: var(--cor-azul-escuro);
     border-top: 3px solid var(--cor-amarelo);
